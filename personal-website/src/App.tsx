@@ -1,22 +1,24 @@
 import Header from "./components/Header";
-import Aboutme from "./components/Aboutme";
-import Skills from "./components/Skills";
-import Projects from "./components/Projects";
+import About from "./components/About.tsx";
+import Language from "./components/Language.tsx";
+import Research from "./components/Research.tsx";
 import Footer from "./components/Footer.tsx";
 import Hero from "./components/Hero.tsx";
+import Tech from "./components/Tech";
 
 function App() {
   return (
-    <div className="font-sans bg-white text-gray-900 scroll-smooth">
+    <div className="bg-white text-gray-900 scroll-smooth">
       <Header />
       <main>
         <Hero />
-        <Aboutme />
-        <Skills />
-        <Projects />
+        <About />
+        <Language />
+        <Research />
+        <Tech />
       </main>
       <Footer />
-    </div>
+      </div>
   );
 }
 
